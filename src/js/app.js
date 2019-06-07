@@ -1,6 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import styled from 'styled-components';
 
 const wrapper = document.getElementById('app');
 
-ReactDOM.render(<div>test</div>, wrapper);
+const Component = styled.div`
+  background: white
+`;
+
+ReactDOM.render(<Component>test</Component>, wrapper);
