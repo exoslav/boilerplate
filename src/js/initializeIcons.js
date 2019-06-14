@@ -24,7 +24,8 @@ import {
   faChevronDown as fasChevronDown,
   faChevronUp as fasChevronUp,
   faChevronRight as fasChevronRight,
-  faChevronLeft as fasChevronLeft
+  faChevronLeft as fasChevronLeft,
+  faPlus as fasPlus,
 } from '@fortawesome/free-solid-svg-icons';
 
 import {
@@ -38,7 +39,7 @@ const initIcons = () => {
     fasMotorcycle, fasCarSide, fasCarCrash, fasCarBattery, fasBus, fasTruck, fasStar, farStar, fasHome,
     fasExclamationTriangle, fasUser, fasAlignJustify, fasTh, fasBriefcaseMedical, fasTrafficLight, fasSign,
     fasChalkboardTeacher, fasStickyNote, farStickyNote, fasTimesCircle, fasCheckCircle, farSadTear, fasChevronDown,
-    fasChevronRight, fasChevronLeft, fasChevronUp, fasTimes, fasCheck
+    fasChevronRight, fasChevronLeft, fasChevronUp, fasTimes, fasCheck, fasPlus
   );
 };
 
